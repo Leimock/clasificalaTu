@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClasificalaTu</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>ClasificalaTu</h1>
+      <div class="hat">
+        <div class="text">Forma del sombrero</div>
+        <div class="cheks">
+          <div><input type="checkbox" name="hat" value="conical"><label for="hat1">conical</label></div>
+          <div><input type="checkbox" name="hat" value="convex"><label for="hat2">convex</label></div>
+          <div><input type="checkbox" name="hat" value="depressed"><label for="hat3">depressed</label></div>
+          <div><input type="checkbox" name="hat" value="flat"><label for="hat4">flat</label></div>
+          <div><input type="checkbox" name="hat" value="indistinct"><label for="hat5">indistinct</label></div>
+          <div><input type="checkbox" name="hat" value="infundibuliform"><label for="hat6">infundibuliform</label></div>
+          <div><input type="checkbox" name="hat" value="offset"><label for="hat7">offset</label></div>
+          <div><input type="checkbox" name="hat" value="umbonate"><label for="hat8">umbonate</label></div>
+        </div>
+      </div>
+      <div class="downhat">
+        <div class="text">Parte inferior del sombrero</div>
+        <select name="hats" id="dcap" >
+          <option value="adnate">adnate</option>
+          <option value="adnexed">adnexed</option>
+          <option value="decurrent">decurrent</option>
+          <option value="free">free</option>
+          <option value="irregular">irregular</option>
+          <option value="subdecurrent">subdecurrent</option>
+        </select>
+      </div>
+      <div class="spores">
+        <div class="text">Color de las esporas</div>
+        <select name="spore" id="spore">
+          <option value="black">black</option>
+          <option value="black-brown">black-brown</option>
+          <option value="brown">brown</option>
+          <option value="buff">buff</option>
+          <option value="cream">cream</option>
+          <option value="pink">pink</option>
+          <option value="reddish-brown">reddish-brown</option>
+          <option value="salmon">salmon</option>
+          <option value="white">white</option>
+          <option value="yellow">yellow</option>
+        </select>
+      </div>
+      <button id="search">Buscar</button>
+      <div id="name"></div>
+      <div id="poison"></div>
+      <div id="deadly"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
