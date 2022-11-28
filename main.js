@@ -32,7 +32,9 @@ async function getData() {
 
         break;
       }
-
+      else {
+        document.getElementById('name').innerHTML = "No se han encontrado coincidencias"
+      }
     }
 
   } catch (Exception) {
